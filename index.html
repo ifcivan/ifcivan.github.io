@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Погода в Україні та світі</title>
+	<meta charset="utf-8">
+	<script type="text/javascript" src="js/script_head.js"></script>
+	<link rel="icon" href="favicon.ico">
+	<link rel="stylesheet" href="css/main.css">
+	<!--<script type="text/javascript" src="jquery-1.11.1.js"></script>
+	<script type="text/javascript" src="jquery-script.js"></script>-->
+	</head>
+<body>
+<div id="main">
+	<div id="header">
+		<form>
+			<label for="cityname">Введіть назву міста:</label>
+			<input type="search" id="cityname" size="20"/>
+			<input type="button" id="send" value="Відправити" />
+		</form>
+	</div>
+		<div id="content">
+			<div id="con_left">
+				<div id="capital">
+					<p>Погода в столиці України</p>
+					<ul>
+							<li style="display:none">clouds: <b><span id="kiev_clouddescr"></span></b></li>
+							<li><span>Київ</span><img id="kiev_cloudimg"></li>
+							<li>Температура повітря: <b><span id="kiev_temp"></span>, &#8451;</b></li>
+							<li>Атмосферний тиск: <b><span id="kiev_pressure"></span>, мм.рт.ст.</b></li>
+							<li>Вологість повітря: <b><span id="kiev_humidity"></span>, %</b></li>
+							<li>Швидкість вітру: <b><span id="kiev_windspeed"></span>, м/с</b></li>
+					</ul>
+				</div>
+				<div id="other_capital">
+					<p>Погода в інших столицях світу</p>
+				</div>
+			</div>
+			<div id="con_right">
+					<div id="tabs">
+					<span id="today">Погода сьогодні</span>
+					<span id="five_days">Прогноз на 5 днів</span>
+					<span id="weather_map">Погодна карта</span>
+					</div>
+					<div id="weather_today">
+						<h2>Погода в місті <span id="selectedcity"></span></h2>
+						<ul>
+							<li>Хмарність: <b><span id="clouddescr"></span></b></li>
+							<img id="cloudimg">
+							<li>Температура повітря: <b><span id="temp"></span>, &#8451;</b></li>
+							<li>Атмосферний тиск: <b><span id="pressure"></span>, hPa</b></li>
+							<li>Вологість повітря: <b><span id="humidity"></span>, %</b></li>
+							<li>Швидкість вітру: <b><span id="windspeed"></span>, meter/sec</b></li>
+						</ul>
+					</div>
+					<div id="weather_five_days">
+					5
+					</div>
+			</div>
+		</div>
+	<div id="footer">
+		Copyright
+	</div>
+</div>
+
+	
+	
+
+	
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>

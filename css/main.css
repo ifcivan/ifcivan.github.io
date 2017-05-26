@@ -1,0 +1,54 @@
+ body {
+	font-family: Arial, Helvetica, sans-serif; 
+	margin:0;
+	padding:0;
+}
+
+ul {
+	padding-left:0;
+	list-style:none;
+}
+
+#main {
+	margin:auto;
+	width:1000px;
+	background:#FFB375;
+}
+#header {
+	padding:10px;
+}
+
+#footer {
+	background:#FFFFC8;
+	text-align:center;
+}
+
+#content {
+	float:left;
+}
+#con_left {
+	padding:5px;
+	float:left;
+	width:260px;
+	background:#B0FFB0;
+}
+#tabs{
+	padding:10px 0;
+	background:#6666FF;
+}
+#con_right {
+	
+	float:right;
+	width:730px;
+	background:#93FFFF;
+}
+#weather_today{
+	padding:5px;
+}
+
+#weather_five_days{
+	display:none;
+	
+}
+
+
